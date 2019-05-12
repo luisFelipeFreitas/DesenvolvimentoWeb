@@ -132,6 +132,14 @@ body {
     color: orange;
 }
 
+.side-menu ul a{
+    color: #212529;
+}
+.side-menu ul li:hover a{
+    color: orange;
+}
+
+
 .side-menu ul li ul {
     display: none;
     z-index: 10;
@@ -170,9 +178,6 @@ body {
         font-size: 12px;
         display: none;
     }
-    /* #menu-btn, #close-btn{
-        display:block;
-    } */
     .side-menu ul li ul {
         top: 133px;
     }
@@ -398,7 +403,7 @@ body {
 .new-arrival
 {
     background: green;
-    width: 50px;
+    width: 55px;
     color: #fff;
     font-size: 12px;
     font-weight: bold;
@@ -450,4 +455,55 @@ body {
 .product-description hr
 {
     margin-bottom: 50px;
+}
+
+.card-img-top{
+    width: 90px;
+      margin-bottom: 6px;
+      border-radius: 50%;
+}
+
+
+/*--------------------carrinho---------------*/
+
+.list{
+    background: orange !important;
+    border: 1px solid orange !important;
+    /* margin: 8.5px 10px 3px 0 !important; */
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    color:white;
+    display:flex;    
+    font-size:20px;
+    
+}
+
+.list-group .list img{
+    height: 10%;
+    width:5%;
+}
+.font-cod{
+    font-size: 10px;
+}
+
+#cancel-purchase{
+    margin-top:20px;
+    color:red !important;
+    float:right;
+    cursor: pointer;
+
+}
+.botao-comprar{
+    float: right;
+    /* background: orange !important; */
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+}
+
+.botao-comprar:hover{
+    background:#f9812A;
 }

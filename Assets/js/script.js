@@ -11,5 +11,9 @@ $(function() {
       $("#close-btn").removeClass("d-block");
    });
 
+   $("#modal").on('show.bs.modal', function(){
+      $("login-btn").click("focus");
+   })
+
 
 });
