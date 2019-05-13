@@ -23,7 +23,7 @@ body {
     margin: 5px 10px;
 }
 
-.form-control {
+.search-box  .form-control {
     margin-top: 9px;
     margin-left: 30px;
     border: 1px solid orange !important;
@@ -49,6 +49,8 @@ body {
     display: inline-flex;
     width: 60%;
 }
+
+
 
 .fa-search {
     color: #fff;
@@ -475,7 +477,7 @@ body {
     border-top-right-radius: 20px !important;
     border-bottom-right-radius: 20px !important;
     color:white;
-    display:flex;    
+    display:inline;  
     font-size:20px;
     
 }
@@ -485,7 +487,15 @@ body {
     width:5%;
 }
 .font-cod{
+    display:inline;
     font-size: 10px;
+}
+.prod-quantity{
+    font-size:10px;
+    float:right;
+    color:#fff;
+    margin-right:200px;
+    margin-top:20px;
 }
 
 #cancel-purchase{
@@ -493,6 +503,18 @@ body {
     color:red !important;
     float:right;
     cursor: pointer;
+
+}
+#edit-purchase{
+    margin-top:20px;
+    color:yellow !important;
+    float: right;
+    cursor: pointer;
+}
+.qtd-prod{
+    font-size:15px;
+    float:right;
+    margin-top:23px;
 
 }
 .botao-comprar{
@@ -506,4 +528,12 @@ body {
 
 .botao-comprar:hover{
     background:#f9812A;
+}
+.modal-body .form-group .form-control{
+    border: 1px solid orange !important;
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    box-shadow: 1px !important;
 }
